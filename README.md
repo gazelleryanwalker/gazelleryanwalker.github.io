@@ -1,12 +1,12 @@
 # Bronzed & Boujie — website
 
-**Live preview:** https://gazelleryanwalker.github.io/bronzed-and-boujie-preview/
+**Live:** https://gazelleryanwalker.github.io/
 
-A faithful copy of the live bronzedandboujieco.com site, hosted where she controls it.
-Booking is mapped to GlossGenius (bronzedandboujie.glossgenius.com).
+A faithful copy of her current bronzedandboujieco.com site — same look, same content —
+hosted in a repo she controls. Booking maps to GlossGenius (bronzedandboujie.glossgenius.com).
 
 ## Update the live site
 ```
 git add -A && git commit -m "your change" && git push
 ```
-Rebuilds at the same URL in ~1 minute.
+Rebuilds at the same URL in ~1–2 minutes.
