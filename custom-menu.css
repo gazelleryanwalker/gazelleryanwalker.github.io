@@ -1,0 +1,17 @@
+/* Reshape the price menu into the white arched "Price List" card on the agate bg */
+#services .arch-card{
+  max-width: 660px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1.6px solid #163a4c;
+  border-radius: 50% 50% 14px 14px / 30% 30% 14px 14px;
+  padding: 134px 56px 52px;
+  box-shadow: 0 34px 80px -34px rgba(20,50,64,.5);
+}
+#services .includes-block{ margin-top: 0; }
+@media (max-width: 760px){
+  #services .arch-card{
+    padding: 92px 24px 42px;
+    border-radius: 46% 46% 12px 12px / 15% 15% 12px 12px;
+  }
+}
