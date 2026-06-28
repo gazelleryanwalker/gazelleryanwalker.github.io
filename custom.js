@@ -23,7 +23,7 @@
       '<p class="txt">“'+ (r.text||'') +'”</p>'+
       '<div class="bb-rv-who"><div class="bb-rv-av">'+initial+'</div>'+
         '<div><div class="bb-rv-nm">'+(r.name||'Google user')+'</div>'+
-        '<div class="bb-rv-src"><span style="color:#4285F4">G</span> Google review</div></div></div>'+
+        '<div class="bb-rv-src">Google review</div></div></div>'+
     '</div>';
   }
   function addReviews(){
