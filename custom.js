@@ -34,9 +34,9 @@
              '<h2 class="bb-rv-title">Glowing <em>reviews</em></h2>';
     var body;
     if(rv.length){
-      var avg=Math.round((rv.reduce(function(a,b){return a+(b.stars||5);},0)/rv.length)*10)/10;
-      head+='<div class="bb-rv-stars-lg">'+stars(avg)+'</div>'+
-            '<p class="bb-rv-summary">'+avg+' out of 5 · '+rv.length+' Google reviews</p>';
+      var meta=window.BB_REVIEWS_META||{rating:5,count:rv.length};
+      head+='<div class="bb-rv-stars-lg">'+stars(meta.rating)+'</div>'+
+            '<p class="bb-rv-summary">'+meta.rating+' out of 5 · '+meta.count+' Google reviews</p>';
       var loop=rv.concat(rv); // duplicate for seamless scroll
       body='<div class="bb-rv-marquee"><div class="bb-rv-track">'+loop.map(card).join('')+'</div></div>';
     } else {
