@@ -30,7 +30,7 @@
     if(document.querySelector('.bb-reviews')) return true;
     var svc=document.querySelector('#services'); if(!svc) return false;
     var rv=reviews();
-    var head='<span class="bb-rv-kicker"><span style="color:#4285F4">G</span> reviews on google</span>'+
+    var head='<span class="bb-rv-kicker">reviews on google</span>'+
              '<h2 class="bb-rv-title">Glowing <em>reviews</em></h2>';
     var body;
     if(rv.length){

@@ -17,9 +17,10 @@
   #services .arch-card{ padding: 92px 24px 42px; border-radius: 46% 46% 12px 12px / 15% 15% 12px 12px; }
 }
 
-/* Each menu item is clearly clickable (links go to GlossGenius booking) */
-#services .price-row-link{ cursor:pointer; display:block; border-radius:10px; transition:background .2s ease, transform .2s ease; }
-#services .price-row-link:hover{ background:rgba(197,229,231,.45); transform:translateX(2px); }
+/* Hover-highlight every row — services, packages, AND add-ons */
+#services .price-row{ border-radius:10px; transition:background .2s ease; }
+#services .price-row:hover{ background:rgba(197,229,231,.55); }
+#services .price-row-link{ cursor:pointer; display:block; }
 
 /* Background image: less zoomed + crisper */
 .services-bg{
